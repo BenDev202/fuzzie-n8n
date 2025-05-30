@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Navbar from "@/components/global/navbar";
+import { ContainerScroll } from "@/components/global/container-scroll-animation";
 
 export default function Home() {
   return (
