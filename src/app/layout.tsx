@@ -30,12 +30,9 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <BillingProvider>
-              <ModalProvider>
+
                 {children}
                 <Toaster />
-              </ModalProvider>
-            </BillingProvider>
           </ThemeProvider>
         </body>
       </html>
